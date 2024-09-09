@@ -1,0 +1,28 @@
+    1  git clone https://github.com/Sambisto/HW_10.git
+    2  touch text_ignore.txt
+    3  mv text_ignore.txt ./HW_10
+    4  cd HW_10
+    5  ls
+    6  vim .gitignore
+    7  git status
+    8  git add .
+    9  git commit -m "was changed"
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m  "file was added"
+   13  git branch develop
+   14  git checkout develop
+   15  git branch -m develop develope
+   16  git checkout develope
+   17  git branch -m develope develop
+   18  git checkout develop
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "file develop_test.txt was added"
+   22  nano develop_test.txt
+   23  git status
+   24  git add .
+   25  git commit -m "file develop_test.txt was changed"
+   26  git checkout main
+   27  git merge develop
+   28  git log
